@@ -23,6 +23,9 @@ cmake_minimum_required(VERSION 3.5.0)
 
 project(CCppGeneratorProject VERSION 0.0.1)
 
+#set compiler
+set(CMAKE_CXX_COMPILER g++)
+
 #set cpp version
 set(CMAKE_CXX_STANDARD 23)
 
